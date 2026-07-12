@@ -1,0 +1,50 @@
+# Future Licensing Decision
+
+## Purpose
+
+The Elastic Governance Layer (EGL) repository is being released initially as a public specification repository.
+
+The final licensing model for documentation, technical specifications, reference implementations, and source code will be determined at a later stage as the project matures.
+
+This phased approach allows the framework to establish a stable conceptual and technical foundation before adopting long-term licensing arrangements.
+
+---
+
+## Current Position
+
+At the current stage:
+
+- the repository serves primarily as an academic and governance specification project;
+- the White Paper and specification documents establish the normative architecture of EGL;
+- future software components, schemas, and reference implementations remain under development.
+
+Accordingly, the documentation and future technical components may ultimately adopt different licensing strategies where appropriate.
+
+---
+
+## Future Considerations
+
+Future licensing decisions may distinguish among:
+
+- documentation and white papers;
+- technical specifications;
+- machine-readable schemas;
+- reference implementations;
+- software components;
+- commercial implementation guidance.
+
+The selected licensing model should support:
+
+- academic citation;
+- responsible research use;
+- institutional adoption;
+- long-term governance of the framework;
+- protection of the integrity of the official EGL specification.
+
+---
+
+## Repository Policy
+
+The final licensing structure will be documented through the repository's official `LICENSE` file and associated documentation once the project reaches a more mature stage of development.
+
+Until then, all materials remain subject to the copyright notice and repository governance policies.
