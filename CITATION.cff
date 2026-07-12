@@ -1,0 +1,31 @@
+# CITATION.cff
+
+## Purpose
+
+The `CITATION.cff` file provides the official citation metadata for the Elastic Governance Layer (EGL) specification repository. It enables GitHub and citation-management tools to generate a standardized academic reference for the project.
+
+The citation file should identify:
+
+- the official title of the specification;
+- the primary author;
+- institutional affiliation;
+- ORCID identifier;
+- version number;
+- release date;
+- repository URL;
+- preferred citation format.
+
+For Version **0.1**, the citation should identify the repository as the first public release of the EGL specification.
+
+### Metadata
+
+- **Title:** *The Elastic Governance Layer: A Composite Public Law Control Matrix for AI-Assisted Decision-Making*
+- **Author:** Jim Y. Huang
+- **Affiliation:** University of Toronto, OISE
+- **ORCID:** 0009-0009-5688-3993
+- **Version:** 0.1.0
+- **Repository:** GitHub – Elastic Governance Layer
+- **Type:** Software / Specification Repository
+- **Preferred Citation:** EGL White Paper Version 0.1
+
+The completed `CITATION.cff` file will be added after the repository URL and first public release date are finalized.
