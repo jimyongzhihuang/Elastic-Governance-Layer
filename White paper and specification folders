@@ -1,0 +1,136 @@
+# White Paper and Specification Folders
+
+## Purpose
+
+The repository separates conceptual documentation from normative technical specifications.
+
+This distinction preserves a clear boundary between explanatory materials (the White Paper) and implementation-oriented governance specifications (the Specification Library).
+
+The **White Paper** explains *why* the Elastic Governance Layer (EGL) is needed and establishes its theoretical, legal, and institutional foundations.
+
+The **Specification** documents define *how* EGL is structured and how its governance components can be consistently implemented, assessed, audited, and extended.
+
+---
+
+# Repository Structure
+
+```text
+white-paper/
+│
+├── EGL_White_Paper_v0.1.md
+├── EGL_White_Paper_v0.1.pdf
+└── figures/
+    ├── egl-control-matrix.png
+    ├── pathway-control-matrix.png
+    └── closure-gates.png
+
+specification/
+│
+├── core-definition.md
+├── composite-public-law-control-matrix.md
+├── pathway-control-matrix.md
+├── closure-gates.md
+├── pathway-states.md
+├── minimum-institutional-controls.md
+├── risk-based-application.md
+├── institutional-evidence-specification.md
+├── maturity-model.md
+└── application-domains.md
+```
+
+---
+
+# White Paper
+
+The White Paper serves as the principal conceptual reference for EGL.
+
+Its primary objectives are to:
+
+- define the governance problem of premature institutional closure;
+- establish the public-law foundations of EGL;
+- introduce the Composite Public Law Control Matrix;
+- explain pathway governance and closure gates;
+- describe institutional evidence and review-ready governance;
+- provide a foundation for future academic research and institutional implementation.
+
+The White Paper is intended primarily for:
+
+- researchers;
+- legal scholars;
+- policymakers;
+- regulators;
+- institutional leaders;
+- governance professionals.
+
+---
+
+# Specification Library
+
+The Specification Library provides the normative implementation documents for EGL.
+
+Each specification defines a particular component of the framework, including:
+
+- terminology;
+- required controls;
+- governance rules;
+- evidence requirements;
+- pathway logic;
+- maturity criteria;
+- implementation expectations.
+
+Specifications are designed to support:
+
+- institutional implementation;
+- software integration;
+- procurement requirements;
+- governance reviews;
+- audit and assurance activities;
+- future technical development.
+
+---
+
+# Relationship Between the Two
+
+The White Paper answers:
+
+> **Why should AI-assisted institutional pathways remain open before consequential closure?**
+
+The Specifications answer:
+
+> **How should institutions operationalize that principle through structured governance controls, pathway management, evidence, and review mechanisms?**
+
+The two components are complementary.
+
+The White Paper establishes the conceptual and doctrinal foundations.
+
+The Specification Library provides the operational architecture.
+
+Together they constitute the official public specification of the Elastic Governance Layer (EGL).
+
+---
+
+# Future Expansion
+
+Future releases may expand both folders independently.
+
+Examples include:
+
+### White Paper
+
+- Version 0.2
+- Version 0.3
+- Comparative studies
+- Policy editions
+- Executive summaries
+
+### Specification Library
+
+- Machine-readable schemas
+- JSON specifications
+- YAML specifications
+- Domain profiles
+- Audit specifications
+- Procurement specifications
+- Reference implementations
+
+Each future document should remain consistent with the core EGL architecture while documenting its own version history.
