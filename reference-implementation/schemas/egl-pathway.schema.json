@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jimyongzhihuang/Elastic-Governance-Layer/schemas/egl-pathway.schema.json",
+  "title": "Elastic Governance Layer Pathway Record",
+  "description": "Machine-readable pathway record for EGL v0.2.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "specification_version",
+    "pathway_id",
+    "node_id",
+    "risk_tier",
+    "state",
+    "controls",
+    "institutional_evidence",
+    "human_closure"
+  ],
+  "properties": {
+    "specification_version": {
+      "const": "0.2.0"
+    },
+    "pathway_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "node_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proposed_consequence": {
+      "type": "string"
+    },
+    "authority_basis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_tier": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "state": {
+      "enum": [
+        "OPEN",
+        "PAUSED",
+        "RETURNED",
+        "REOPENED",
+        "ESCALATED",
+        "RESTRICTED",
+        "READY_FOR_TRANSMISSION",
+        "LAWFULLY_CLOSED"
+      ]
+    },
+    "controls": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "justificatory",
+        "participatory",
+        "corrective",
+        "anti_fettering"
+      ],
+      "properties": {
+        "justificatory": {
+          "$ref": "#/$defs/control"
+        },
+        "participatory": {
+          "$ref": "#/$defs/control"
+        },
+        "corrective": {
+          "$ref": "#/$defs/control"
+        },
+        "anti_fettering": {
+          "$ref": "#/$defs/control"
+        }
+      }
+    },
+    "institutional_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "return_destination": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "escalation_authority": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "human_closure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required",
+        "completed"
+      ],
+      "properties": {
+        "required": {
+          "const": true
+        },
+        "completed": {
+          "type": "boolean"
+        },
+        "reviewer_role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision_record": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "closed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "control": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "evidence_refs"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "SATISFIED",
+            "PARTIAL",
+            "FAILED",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
