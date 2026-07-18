@@ -1,115 +1,42 @@
-# CHANGELOG.md
+# Changelog
 
-## Purpose
+This file records the public development history of the Elastic Governance Layer (EGL).
 
-The `CHANGELOG.md` file provides a transparent record of the development history of the Elastic Governance Layer (EGL) specification.
-
-Its purpose is to document the evolution of the framework, including conceptual revisions, structural improvements, new specifications, implementation guidance, and future technical releases.
-
-The changelog should allow readers, researchers, implementers, and reviewers to identify what has changed between versions without comparing individual documents manually.
-
-Each release should record:
-
-- version number;
-- release date;
-- development status;
-- major additions;
-- modifications;
-- deprecated elements;
-- compatibility notes;
-- planned future work.
+Each release identifies its status, substantive additions, clarifications, compatibility position, and future development direction.
 
 ---
 
 ## Version History
 
-### Version 0.1.0 — Initial Public Specification
+### Version 0.2.0 — Control, Pathway, and Closure-Gate Specification
 
-**Status:** Initial Public Release
+**Release date:** July 18, 2026  
+**Status:** Initial Operational Specification
 
-This release establishes the first public specification of the Elastic Governance Layer (EGL).
+Version 0.2.0 moves EGL from a concept and white-paper specification into an initial operational governance specification.
 
-Major components include:
+#### Added
 
-- Formal definition of EGL
-- Composite Public Law Control Matrix
-- Pathway-Control Matrix
-- Closure Gates and Pathway States
-- Minimum Institutional Control Requirements
-- Risk-Based Application Framework
-- Institutional Evidence and Auditability
-- EGL Maturity Model
-- Application Domains
-- White Paper (Version 0.1)
-- Annexes A–E
-- Initial GitHub Specification Repository
+- normative EGL four-control gate procedure;
+- explicit pathway states and state-transition rules;
+- lawful closure requirements;
+- Python reference control-gate implementation;
+- machine-readable JSON pathway schema;
+- tax-administration reference example;
+- implementation links between EGL, GTL, and human or institutional closure.
 
----
+#### Clarified
 
-## Planned Releases
+- technical completion is not lawful institutional closure;
+- Spring Governance explains movement, damping, and return-to-path;
+- the Composite Public Law Control Matrix supplies the normative public-law conditions for pathway advancement;
+- EGL governs the interval between structured machine output and GTL-controlled transmission;
+- lawful closure requires authorized human or institutional judgment.
 
-### Version 0.2
+#### Implementation Files
 
-Planned additions:
-
-- Machine-readable control schema
-- JSON/YAML specifications
-- Pathway-state specification
-- Closure-gate specification
-
-### Version 0.3
-
-Planned additions:
-
-- Institutional Evidence Schema
-- Human Judgment Record specification
-- Risk Assessment specification
-- Audit specification
-
-### Version 0.4
-
-Planned additions:
-
-- Domain Profiles
-- Tax Administration
-- Education Administration
-- Financial Regulation
-- Smart Justice
-- Public Administration
-
-### Version 0.5
-
-Planned additions:
-
-- Reference implementation
-- Example institutional pathways
-- Sample datasets
-- Workflow demonstrations
-
-### Version 1.0
-
-First Stable Public Specification
-
-The first stable version of EGL intended for academic citation, institutional implementation, procurement reference, and future technical development.
-
----
-
-## Change Management Principles
-
-Every version should:
-
-- preserve conceptual consistency;
-- clearly identify breaking changes;
-- distinguish editorial revisions from substantive changes;
-- maintain backward traceability where possible;
-- document future development priorities.
-
-Major conceptual revisions should be accompanied by explanatory notes to assist researchers and institutional adopters.
-
----
-
-## Repository Policy
-
-The GitHub repository represents the official public development history of the Elastic Governance Layer specification.
-
-All future revisions should be documented through version-controlled releases rather than replacing earlier specifications.
+```text
+specification/EGL-Control-Algorithm.md
+reference-implementation/egl_gate.py
+schemas/egl-pathway.schema.json
+examples/tax-administration-example.json
