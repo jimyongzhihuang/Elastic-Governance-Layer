@@ -1,0 +1,54 @@
+{
+  "specification_version": "0.2.0",
+  "pathway_id": "TAX-REVIEW-EXAMPLE-001",
+  "node_id": "classification-review",
+  "proposed_consequence": "Advance an AI-assisted classification into an assessment workflow",
+  "authority_basis": [
+    "Applicable statutory assessment authority",
+    "Internal delegation instrument"
+  ],
+  "risk_tier": "HIGH",
+  "state": "RETURNED",
+  "controls": {
+    "justificatory": {
+      "status": "PARTIAL",
+      "evidence_refs": [
+        "classification-output"
+      ],
+      "reason": "The alternative legal classification has not been addressed."
+    },
+    "participatory": {
+      "status": "FAILED",
+      "evidence_refs": [],
+      "reason": "The affected taxpayer has not received the material basis for the proposed classification."
+    },
+    "corrective": {
+      "status": "SATISFIED",
+      "evidence_refs": [
+        "review-procedure-01"
+      ],
+      "reason": "The pathway may be returned and independently reviewed."
+    },
+    "anti_fettering": {
+      "status": "SATISFIED",
+      "evidence_refs": [
+        "delegation-and-override-record"
+      ],
+      "reason": "The authorized reviewer may reject or replace the machine-generated classification."
+    }
+  },
+  "institutional_evidence": [
+    "classification-output",
+    "review-procedure-01",
+    "delegation-and-override-record"
+  ],
+  "return_destination": "notice-and-response",
+  "escalation_authority": null,
+  "human_closure": {
+    "required": true,
+    "completed": false,
+    "reviewer_role": null,
+    "decision_record": null,
+    "closed_at": null
+  }
+}
