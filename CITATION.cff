@@ -1,29 +1,12 @@
- cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use this specification, please cite it as below."
 title: "The Elastic Governance Layer: Control, Pathway, and Closure-Gate Specification"
 type: software
-version: 0.2.0
-date-released: 2026-07-18
-
+version: "0.2.0"
+date-released: "2026-07-18"
 authors:
   - family-names: "Huang"
     given-names: "Jim Y."
-    affiliation: "University of Toronto, OISE"
     orcid: "https://orcid.org/0009-0009-5688-3993"
-
 repository-code: "https://github.com/jimyongzhihuang/Elastic-Governance-Layer"
 url: "https://github.com/jimyongzhihuang/Elastic-Governance-Layer"
-
-keywords:
-  - "Elastic Governance Layer"
-  - "closure-gated AI governance"
-  - "premature institutional closure"
-  - "public law"
-  - "institutional AI"
-  - "human closure"
-
-abstract: >-
-  The Elastic Governance Layer is a public-law control architecture for
-  keeping consequential AI-assisted institutional pathways provisional,
-  contestable, correctable, reviewable, and subject to genuine human
-  judgment until lawful institutional closure is achieved.
