@@ -1,31 +1,29 @@
-# CITATION.cff
+ cff-version: 1.2.0
+message: "If you use this specification, please cite it as below."
+title: "The Elastic Governance Layer: Control, Pathway, and Closure-Gate Specification"
+type: software
+version: 0.2.0
+date-released: 2026-07-18
 
-## Purpose
+authors:
+  - family-names: "Huang"
+    given-names: "Jim Y."
+    affiliation: "University of Toronto, OISE"
+    orcid: "https://orcid.org/0009-0009-5688-3993"
 
-The `CITATION.cff` file provides the official citation metadata for the Elastic Governance Layer (EGL) specification repository. It enables GitHub and citation-management tools to generate a standardized academic reference for the project.
+repository-code: "https://github.com/jimyongzhihuang/Elastic-Governance-Layer"
+url: "https://github.com/jimyongzhihuang/Elastic-Governance-Layer"
 
-The citation file should identify:
+keywords:
+  - "Elastic Governance Layer"
+  - "closure-gated AI governance"
+  - "premature institutional closure"
+  - "public law"
+  - "institutional AI"
+  - "human closure"
 
-- the official title of the specification;
-- the primary author;
-- institutional affiliation;
-- ORCID identifier;
-- version number;
-- release date;
-- repository URL;
-- preferred citation format.
-
-For Version **0.1**, the citation should identify the repository as the first public release of the EGL specification.
-
-### Metadata
-
-- **Title:** *The Elastic Governance Layer: A Composite Public Law Control Matrix for AI-Assisted Decision-Making*
-- **Author:** Jim Y. Huang
-- **Affiliation:** University of Toronto, OISE
-- **ORCID:** 0009-0009-5688-3993
-- **Version:** 0.1.0
-- **Repository:** GitHub – Elastic Governance Layer
-- **Type:** Software / Specification Repository
-- **Preferred Citation:** EGL White Paper Version 0.1
-
-The completed `CITATION.cff` file will be added after the repository URL and first public release date are finalized.
+abstract: >-
+  The Elastic Governance Layer is a public-law control architecture for
+  keeping consequential AI-assisted institutional pathways provisional,
+  contestable, correctable, reviewable, and subject to genuine human
+  judgment until lawful institutional closure is achieved.
