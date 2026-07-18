@@ -195,27 +195,39 @@ The first EGL domain profiles are expected to address:
 
 ## Status and Versioning
 
-**Current version:** `v0.1 — Concept and White Paper Specification`
+**Current version:** `v0.2.0 — Control, Pathway, and Closure-Gate Specification`
 
-Planned development path:
+Version 0.2 moves EGL from a concept and white-paper specification into an initial operational specification.
+
+This release adds:
+
+- a normative four-control gate procedure;
+- explicit pathway-state and transition rules;
+- a Python reference implementation;
+- a machine-readable JSON Schema;
+- a tax-administration reference example;
+- a defined relationship between EGL, GTL, and lawful human closure.
 
 ```text
-v0.2 — Control and Pathway Schema
-v0.3 — Closure-Gate and Evidence Specification
-v0.4 — Domain Profiles and Templates
-v0.5 — Reference Implementation
+v0.1 — Concept and White Paper Specification
+v0.2 — Control, Pathway, and Closure-Gate Specification [CURRENT]
+v0.3 — Institutional Evidence and Human Judgment Record
+v0.4 — Domain Profiles and Implementation Templates
+v0.5 — Extended Reference Implementation and Testing
 v1.0 — First Stable Public Specification
 ```
 
----
+Version 0.2 extends rather than replaces version 0.1. The original public development record remains preserved.
 
 ## Citation
 
-A formal `CITATION.cff` file will be included in this repository.
+Formal citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
-Until then, cite the project as:
+For the current operational specification, cite:
 
-> Huang, Jim Y. *The Elastic Governance Layer: A Composite Public Law Control Matrix for AI-Assisted Decision-Making*. Version 0.1, 2026.
+> Huang, Jim Y. *The Elastic Governance Layer: Control, Pathway, and Closure-Gate Specification*. Version 0.2.0, 2026. https://github.com/jimyongzhihuang/Elastic-Governance-Layer
+
+The original conceptual and white-paper specification remains citable as Version 0.1.
 
 ---
 
@@ -238,13 +250,22 @@ EGL does not promise error-free automation. Its purpose is to keep machine-assis
 
 This repository is under active development.
 
-The immediate priorities are:
+### Completed in Version 0.2
 
-1. publication of the EGL White Paper;
-2. release of the core specification files;
-3. publication of Annexes A–E;
-4. development of machine-readable schemas;
-5. preparation of initial domain profiles and reference cases.
+- publication of the normative EGL control algorithm;
+- release of the pathway-state and closure-gate logic;
+- release of the Python reference implementation;
+- release of the machine-readable pathway schema;
+- publication of the first tax-administration reference example;
+- integration of EGL with the wider PJLS, CDM, 4-3-3-2, GTL, and human-closure architecture.
+
+### Next Development Priorities
+
+1. institutional evidence and human judgment record schemas;
+2. automated validation tests for the Python implementation and JSON Schema;
+3. additional domain profiles for public administration, education, regulation, finance, and smart justice;
+4. implementation and procurement templates;
+5. preparation of a tagged Version 0.2 release.
 
 ---
 
